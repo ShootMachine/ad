@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BBLaunchAdMonitor.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *path = @"http://mg.soupingguo.com/bizhi/big/10/258/043/10258043.jpg";
+    [BBLaunchAdMonitor showAdAtPath:path
+                             onView:self.window.rootViewController.view
+                       timeInterval:1.
+                   detailParameters:@{@"carId":@(12345), @"name":@"奥迪-品质生活"}];
+
     return YES;
 }
 

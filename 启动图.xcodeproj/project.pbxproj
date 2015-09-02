@@ -14,6 +14,7 @@
 		A1E4E0DD1B784308009A6BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E4E0DC1B784308009A6BE0 /* Images.xcassets */; };
 		A1E4E0E01B784308009A6BE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E4E0DE1B784308009A6BE0 /* LaunchScreen.xib */; };
 		A1E4E0EC1B784308009A6BE0 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4E0EB1B784308009A6BE0 /* ___Tests.m */; };
+		A1E4E0F71B7844FB009A6BE0 /* BBLaunchAdMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4E0F61B7844FB009A6BE0 /* BBLaunchAdMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A1E4E0E51B784308009A6BE0 /* 启动图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "启动图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E4E0EA1B784308009A6BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E4E0EB1B784308009A6BE0 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		A1E4E0F51B7844FB009A6BE0 /* BBLaunchAdMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLaunchAdMonitor.h; sourceTree = "<group>"; };
+		A1E4E0F61B7844FB009A6BE0 /* BBLaunchAdMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLaunchAdMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		A1E4E0CE1B784308009A6BE0 /* 启动图 */ = {
 			isa = PBXGroup;
 			children = (
+				A1E4E0F51B7844FB009A6BE0 /* BBLaunchAdMonitor.h */,
+				A1E4E0F61B7844FB009A6BE0 /* BBLaunchAdMonitor.m */,
 				A1E4E0D31B784308009A6BE0 /* AppDelegate.h */,
 				A1E4E0D41B784308009A6BE0 /* AppDelegate.m */,
 				A1E4E0D61B784308009A6BE0 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				A1E4E0D81B784308009A6BE0 /* ViewController.m in Sources */,
 				A1E4E0D51B784308009A6BE0 /* AppDelegate.m in Sources */,
+				A1E4E0F71B7844FB009A6BE0 /* BBLaunchAdMonitor.m in Sources */,
 				A1E4E0D21B784308009A6BE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
